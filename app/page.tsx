@@ -62,14 +62,14 @@ export default function VideoCreatorLandingPage() {
 
             <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
               <a
-                href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+                href="https://wa.me/351933837256" target="_blank" rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-black transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(52,211,153,0.35)] sm:w-auto sm:px-6 sm:text-base"
               >
                 Falar no WhatsApp
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="https://instagram.com/dgrecoficial" target="_blank" rel="noopener noreferrer"
+                href="https://instagram.com/dg.recoficial" target="_blank" rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 transition hover:border-emerald-400/30 hover:bg-white/10 sm:w-auto sm:px-6 sm:text-base"
               >
                 Ver Instagram
@@ -270,14 +270,14 @@ export default function VideoCreatorLandingPage() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+              href="https://wa.me/351933837256" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-black transition hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(52,211,153,0.35)]"
             >
               WhatsApp
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="mailto:seuemail@exemplo.com" target="_blank" rel="noopener noreferrer"
+              href="mailto:douglashvf13@gmail.com" target="_blank" rel="noopener noreferrer"
               className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 transition hover:bg-white/10"
             >
               Email

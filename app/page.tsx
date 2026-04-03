@@ -37,7 +37,7 @@ export default function VideoCreatorLandingPage() {
         <div className="absolute left-0 top-16 h-56 w-56 rounded-full bg-emerald-400/10 blur-3xl" />
         <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl" />
 
-        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-24">
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-12 sm:px-6 sm:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-12 lg:py-24">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -49,28 +49,28 @@ export default function VideoCreatorLandingPage() {
               DG.rec Event Media
             </div>
 
-            <h1 className="max-w-3xl text-4xl font-black leading-none sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-3xl text-3xl font-black leading-[0.95] sm:text-5xl lg:text-7xl">
               Transformando
               <span className="mt-2 block text-transparent bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-300 bg-clip-text">
                 eventos em conteúdo.
               </span>
             </h1>
 
-            <p className="max-w-xl text-base leading-7 text-white/70 sm:text-lg">
+            <p className="max-w-xl text-sm leading-6 text-white/70 sm:text-base sm:leading-7 lg:text-lg">
               Captação, edição e criação de conteúdo para eventos, marcas e negócios que querem presença forte, estética premium e impacto real no digital.
             </p>
 
-            <div className="flex flex-col gap-3 sm:flex-row">
+            <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
               <a
-                href="https://wa.me/351933837256" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-black transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(52,211,153,0.35)]"
+                href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-black transition duration-300 hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(52,211,153,0.35)] sm:w-auto sm:px-6 sm:text-base"
               >
                 Falar no WhatsApp
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="https://www.instagram.com/dg.recoficial/" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-2xl border border-white/15 bg-white/5 px-6 py-3 font-medium text-white/90 transition hover:border-emerald-400/30 hover:bg-white/10"
+                href="https://instagram.com/dgrecoficial" target="_blank" rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 transition hover:border-emerald-400/30 hover:bg-white/10 sm:w-auto sm:px-6 sm:text-base"
               >
                 Ver Instagram
               </a>
@@ -97,14 +97,14 @@ export default function VideoCreatorLandingPage() {
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="relative mx-auto w-full max-w-md lg:max-w-none"
+            className="relative mx-auto order-first w-full max-w-sm sm:max-w-md lg:order-none lg:max-w-none"
           >
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-r from-emerald-400/30 via-cyan-400/20 to-emerald-400/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] shadow-2xl backdrop-blur-xl">
               <img
                 src="/douglas.jpg"
                 alt="Douglas Freitas"
-                className="h-[580px] w-full object-cover object-center"
+                className="h-[420px] w-full object-cover object-center sm:h-[520px] lg:h-[580px]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
               <motion.div
@@ -112,10 +112,10 @@ export default function VideoCreatorLandingPage() {
                 transition={{ duration: 3, repeat: Infinity }}
                 className="absolute left-6 top-6 h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_18px_rgba(52,211,153,0.9)]"
               />
-              <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+              <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8">
                 <p className="text-sm uppercase tracking-[0.2em] text-emerald-300/90">Douglas Freitas</p>
-                <p className="mt-2 text-2xl font-bold sm:text-3xl">DG.rec</p>
-                <p className="mt-2 max-w-sm text-sm leading-6 text-white/65">
+                <p className="mt-2 text-xl font-bold sm:text-3xl">DG.rec</p>
+                <p className="mt-2 max-w-sm text-xs leading-5 text-white/65 sm:text-sm sm:leading-6">
                   Conteúdo estratégico + produção audiovisual para transformar presença em percepção de valor.
                 </p>
               </div>
@@ -125,11 +125,11 @@ export default function VideoCreatorLandingPage() {
       </section>
 
       {/* SOBRE */}
-      <section className="px-6 py-16">
+      <section className="px-5 py-12 sm:px-6 sm:py-16">
         <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur sm:p-8">
+          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-8">
             <p className="text-sm uppercase tracking-[0.2em] text-emerald-400">Quem sou eu</p>
-            <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Douglas Freitas</h2>
+            <h2 className="mt-4 text-2xl font-semibold sm:text-4xl">Douglas Freitas</h2>
             <p className="mt-2 font-medium text-emerald-400">Vulgo DG</p>
 
             <div className="mt-8 space-y-4 text-white/75">
@@ -146,8 +146,8 @@ export default function VideoCreatorLandingPage() {
             </div>
           </div>
 
-          <div className="grid gap-5 sm:grid-cols-3">
-            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 sm:col-span-1">
+          <div className="grid gap-4 sm:grid-cols-3">
+            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 sm:col-span-1 sm:p-6">
               <p className="text-sm text-white/50">01</p>
               <h3 className="mt-3 text-lg font-semibold">Captação</h3>
               <p className="mt-2 text-sm leading-6 text-white/60">
@@ -155,7 +155,7 @@ export default function VideoCreatorLandingPage() {
               </p>
             </div>
 
-            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 sm:col-span-1">
+            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 sm:col-span-1 sm:p-6">
               <p className="text-sm text-white/50">02</p>
               <h3 className="mt-3 text-lg font-semibold">Edição</h3>
               <p className="mt-2 text-sm leading-6 text-white/60">
@@ -163,7 +163,7 @@ export default function VideoCreatorLandingPage() {
               </p>
             </div>
 
-            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 sm:col-span-1">
+            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 sm:col-span-1 sm:p-6">
               <p className="text-sm text-white/50">03</p>
               <h3 className="mt-3 text-lg font-semibold">Post Flash</h3>
               <p className="mt-2 text-sm leading-6 text-white/60">
@@ -175,14 +175,14 @@ export default function VideoCreatorLandingPage() {
       </section>
 
       {/* DIFERENCIAIS */}
-      <section className="border-y border-white/10 px-6 py-16">
+      <section className="border-y border-white/10 px-5 py-12 sm:px-6 sm:py-16">
         <div className="mx-auto grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:border-emerald-400/30">
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition hover:-translate-y-1 hover:border-emerald-400/30 sm:p-6">
             <h3 className="font-semibold">Alta retenção</h3>
             <p className="mt-2 text-sm leading-6 text-white/60">Conteúdos pensados para prender atenção desde os primeiros segundos.</p>
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:-translate-y-1 hover:border-cyan-400/30">
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition hover:-translate-y-1 hover:border-cyan-400/30 sm:p-6">
             <h3 className="font-semibold">Estética premium</h3>
             <p className="mt-2 text-sm leading-6 text-white/60">Visual moderno e cinematográfico para valorizar a sua imagem e a sua marca.</p>
           </div>
@@ -194,10 +194,10 @@ export default function VideoCreatorLandingPage() {
         </div>
       </section>
 
-   {/* REELS
-      <section className="px-6 py-16">
+      {/* REELS
+      <section className="px-5 py-12 sm:px-6 sm:py-16">
         <div className="mx-auto max-w-6xl">
-          <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.2em] text-emerald-400">Portfólio</p>
               <h3 className="mt-2 text-2xl font-semibold sm:text-3xl">Alguns trabalhos recentes</h3>
@@ -207,15 +207,15 @@ export default function VideoCreatorLandingPage() {
             </div>
 
             <a
-              href="https://instagram.com/dgrecoficial"
-              className="inline-flex items-center gap-2 self-start rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 transition hover:border-emerald-400/30 hover:bg-white/10"
+              href="https://instagram.com/dg.recoficial" target="_blank" rel="noopener noreferrer"
+              className="inline-flex w-full items-center justify-center gap-2 self-start rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 transition hover:border-emerald-400/30 hover:bg-white/10 sm:w-auto"
             >
               Ver mais no Instagram
               <ArrowRight className="h-4 w-4" />
             </a>
           </div>
 
-          <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden sm:gap-6">
             {reels.map((reel, index) => (
               <motion.div
                 key={reel.title}
@@ -223,13 +223,13 @@ export default function VideoCreatorLandingPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.45, delay: index * 0.08 }}
-                className="group min-w-[290px] snap-center overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] sm:min-w-[340px]"
+                className="group min-w-[85vw] snap-center overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] sm:min-w-[340px] lg:min-w-[360px]"
               >
                 <div className="relative border-b border-white/10 bg-black">
                   <iframe
                     src={reel.embed}
                     title={reel.title}
-                    className="h-[500px] w-full"
+                    className="h-[420px] w-full sm:h-[500px]"
                     frameBorder="0"
                     scrolling="no"
                   />
@@ -241,7 +241,7 @@ export default function VideoCreatorLandingPage() {
                   </div>
                 </div>
 
-                <div className="p-5">
+                <div className="p-4 sm:p-5">
                   <div className="flex items-start justify-between gap-4">
                     <div>
                       <h4 className="text-lg font-semibold">{reel.title}</h4>
@@ -259,10 +259,10 @@ export default function VideoCreatorLandingPage() {
       </section>
 */}
       {/* CTA */}
-      <section className="px-6 py-20">
-        <div className="mx-auto max-w-4xl rounded-[2rem] border border-white/10 bg-white/5 p-8 text-center backdrop-blur sm:p-12">
+      <section className="px-5 py-14 sm:px-6 sm:py-20">
+        <div className="mx-auto max-w-4xl rounded-[2rem] border border-white/10 bg-white/5 p-6 text-center backdrop-blur sm:p-12">
           <p className="text-sm uppercase tracking-[0.22em] text-emerald-400">Vamos trabalhar juntos</p>
-          <h3 className="mt-4 text-3xl font-semibold sm:text-4xl">Bora criar algo forte?</h3>
+          <h3 className="mt-4 text-2xl font-semibold sm:text-4xl">Bora criar algo forte?</h3>
 
           <p className="mx-auto mt-4 max-w-2xl text-white/70">
             Me chama e vamos transformar seu evento ou marca em conteúdo que realmente chama atenção, gera percepção de valor e marca presença no digital.
@@ -270,14 +270,14 @@ export default function VideoCreatorLandingPage() {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
             <a
-              href="https://wa.me/351933837256" target="_blank" rel="noopener noreferrer"
+              href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-black transition hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(52,211,153,0.35)]"
             >
               WhatsApp
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="mailto:douglashvf13@gmail.com" target="_blank" rel="noopener noreferrer"
+              href="mailto:seuemail@exemplo.com" target="_blank" rel="noopener noreferrer"
               className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 transition hover:bg-white/10"
             >
               Email
